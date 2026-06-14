@@ -9,7 +9,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "postinstall": "npm install react-scripts"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
   },
   "browserslist": {
     "production": [">0.2%", "not dead", "not op_mini all"],
