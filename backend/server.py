@@ -4,7 +4,11 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Backend is running"
+    return "Backend working"
+
+@app.route("/predict", methods=["GET"])
+def predict():
+    return {"message": "test ok"}
 
 
 
