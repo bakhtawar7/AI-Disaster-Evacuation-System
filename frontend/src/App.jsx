@@ -3,7 +3,7 @@ import { useState, useCallback, useEffect, useRef } from "react";
 // ─── Constants ────────────────────────────────────────────────────────────────
 const ROWS = 20;
 const COLS = 20;
-const API  = "http://localhost:8000";
+const API  = "https://ai-disaster-evacuation-system.onrender.com";
 
 const CELL = { FREE:0, WALL:1, START:2, HAZARD:3, CONGESTED:4, GOAL:5, PATH:6, VISITED:7, SHELTER:8, POPULATION:9 };
 
